@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  Capp
+
+  Created by apple on 2017/10/25.
+  Copyright © 2017年 apple. All rights reserved.
+*/
+
+// NSLocalizedString(key, comment) 本质
+// NSlocalizeString 第一个参数是内容,根据第一个参数去对应语言的文件中取对应的字符串，第二个参数将会转化为字符串文件里的注释，可以传nil，也可以传空字符串@""。
+//系统的宏
+//#define NSLocalizedString(key, comment) [[NSBundle mainBundle] localizedStringForKey:(key) value:@"" table:nil]
+
+"guojihua" = "中文";
+
+"tabBar1" = "tabBar1";
+"tabBar2" = "tabBar2";
+"tabBar3" = "tabBar3";
+"tabBar1Title" = "tabBar1Title";
+"tabBar2Title" = "tabBar2Title";
+"tabBar3Title" = "tabBar3Title";
+
+
