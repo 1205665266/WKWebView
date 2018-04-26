@@ -10,4 +10,7 @@ pod 'MBProgressHUD','~> 0.9.2'
 pod 'UMengUShare/Social/WeChat'
 pod 'UMengUShare/Social/QQ'
 pod 'UMengUShare/Social/Sina'
+
+#webView和原生交互三方
+pod 'WebViewJavascriptBridge'
 end

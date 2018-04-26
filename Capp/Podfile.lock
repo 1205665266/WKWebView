@@ -41,6 +41,7 @@ PODS:
   - UMengUShare/Social/WeChat (6.4.5):
     - UMengUShare/Core
     - UMengUShare/Social/ReducedWeChat
+  - WebViewJavascriptBridge (6.0.3)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0.4)
@@ -53,6 +54,7 @@ DEPENDENCIES:
   - UMengUShare/Social/QQ
   - UMengUShare/Social/Sina
   - UMengUShare/Social/WeChat
+  - WebViewJavascriptBridge
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
@@ -63,7 +65,8 @@ SPEC CHECKSUMS:
   SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   UMengUShare: a5711c54e640b04e3048e931d2b88d50f9cfa55c
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
 
-PODFILE CHECKSUM: 5a991a8c709a50a12abb37f9f55ef911eaeb5716
+PODFILE CHECKSUM: 1c41962078e03e00aca8390827256f126456fcf6
 
-COCOAPODS: 1.4.0.beta.1
+COCOAPODS: 1.4.0.beta.2

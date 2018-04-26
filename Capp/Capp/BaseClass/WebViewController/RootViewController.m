@@ -8,6 +8,7 @@
 
 #import "RootViewController.h"
 #import "BaseWebViewController.h"
+#import "WKWebViewBridgeController.h"
 
 @interface RootViewController ()
 
@@ -24,11 +25,24 @@
     button.backgroundColor = [UIColor lightGrayColor];
     [button addTarget:self action:@selector(buttonAction) forControlEvents:(UIControlEventTouchUpInside)];
     [self.view addSubview:button];
+    [button setTitle:@"不用三方" forState:(UIControlStateNormal)];
+    
+    UIButton *button1 = [[UIButton alloc] initWithFrame:CGRectMake(100, 220, 100, 100)];
+    button1.backgroundColor = [UIColor lightGrayColor];
+    [button1 addTarget:self action:@selector(button1Action) forControlEvents:(UIControlEventTouchUpInside)];
+    [self.view addSubview:button1];
+    [button1 setTitle:@"三方" forState:(UIControlStateNormal)];
 }
 
 -(void)buttonAction
 {
     BaseWebViewController *VC = [[BaseWebViewController alloc] init];
+    [self.navigationController pushViewController:VC animated:YES];
+}
+
+-(void)button1Action
+{
+    WKWebViewBridgeController *VC = [[WKWebViewBridgeController alloc] init];
     [self.navigationController pushViewController:VC animated:YES];
 }
 

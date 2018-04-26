@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		180FA2681FA060E200403474 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180FA26A1FA060E200403474 /* InfoPlist.strings */; };
 		180FA2741FA0642400403474 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180FA2761FA0642400403474 /* Localizable.strings */; };
+		182DDA4220917D210067C77B /* WKWebViewBridgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182DDA4020917D200067C77B /* WKWebViewBridgeController.m */; };
+		182DDA4420917EEC0067C77B /* xg_test.html in Resources */ = {isa = PBXBuildFile; fileRef = 182DDA4320917EEC0067C77B /* xg_test.html */; };
 		184531371F96E79500CC6587 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184531361F96E79500CC6587 /* main.m */; };
 		1845313A1F96E79500CC6587 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184531391F96E79500CC6587 /* AppDelegate.m */; };
 		184531421F96E79500CC6587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184531411F96E79500CC6587 /* Assets.xcassets */; };
@@ -28,6 +30,9 @@
 		180FA26B1FA060E500403474 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		180FA2751FA0642400403474 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		180FA2771FA0642500403474 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		182DDA4020917D200067C77B /* WKWebViewBridgeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewBridgeController.m; sourceTree = "<group>"; };
+		182DDA4120917D200067C77B /* WKWebViewBridgeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewBridgeController.h; sourceTree = "<group>"; };
+		182DDA4320917EEC0067C77B /* xg_test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = xg_test.html; sourceTree = "<group>"; };
 		184531321F96E79500CC6587 /* Capp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184531361F96E79500CC6587 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		184531381F96E79500CC6587 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,10 +89,13 @@
 		184531341F96E79500CC6587 /* Capp */ = {
 			isa = PBXGroup;
 			children = (
+				182DDA4320917EEC0067C77B /* xg_test.html */,
 				1845BD3E200745D2000E12E9 /* WKWebViewMessageHandler.html */,
 				1882F5E11F96F45D00365185 /* BaseClass */,
 				184531381F96E79500CC6587 /* AppDelegate.h */,
 				184531391F96E79500CC6587 /* AppDelegate.m */,
+				182DDA4120917D200067C77B /* WKWebViewBridgeController.h */,
+				182DDA4020917D200067C77B /* WKWebViewBridgeController.m */,
 				184531411F96E79500CC6587 /* Assets.xcassets */,
 				184531431F96E79500CC6587 /* LaunchScreen.storyboard */,
 				184531461F96E79500CC6587 /* Info.plist */,
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				184531451F96E79500CC6587 /* LaunchScreen.storyboard in Resources */,
+				182DDA4420917EEC0067C77B /* xg_test.html in Resources */,
 				1845BD3F200745D2000E12E9 /* WKWebViewMessageHandler.html in Resources */,
 				180FA2681FA060E200403474 /* InfoPlist.strings in Resources */,
 				180FA2741FA0642400403474 /* Localizable.strings in Resources */,
@@ -293,6 +302,7 @@
 			files = (
 				1882F5FF1F96F45D00365185 /* NSTimer+addition.m in Sources */,
 				1882F6011F96F45D00365185 /* WYWebProgressLayer.m in Sources */,
+				182DDA4220917D210067C77B /* WKWebViewBridgeController.m in Sources */,
 				1845313A1F96E79500CC6587 /* AppDelegate.m in Sources */,
 				184531371F96E79500CC6587 /* main.m in Sources */,
 				1882F6001F96F45D00365185 /* UIView+Frame.m in Sources */,
