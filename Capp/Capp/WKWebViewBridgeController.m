@@ -63,11 +63,11 @@
     [_bridge setWebViewDelegate:self];
     
     // 注册一下
-    
     __weak __typeof(self)weakSelf = self;
     // js调用oc
     [_bridge registerHandler:@"_app_setTitle" handler:^(id data, WVJBResponseCallback responseCallback) {
         responseCallback(@"123");
+        NSLog(@"data==%@", (NSString *)data);
         if ([data isKindOfClass:[NSString class]]) {
             weakSelf.title = (NSString *)data;
             return ;
